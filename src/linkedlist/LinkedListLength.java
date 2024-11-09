@@ -1,10 +1,12 @@
+package linkedlist;
+
 // Definition for singly-linked list node
-class Node {
-    int val;
+ class Node {
+    int data;
     Node next;
 
     Node(int val) {
-        this.val = val;
+        this.data = val;
         this.next = null;
     }
 }
