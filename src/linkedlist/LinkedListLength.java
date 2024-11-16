@@ -3,7 +3,7 @@ package linkedlist;
 // Definition for singly-linked list node
  class Node {
     int data;
-    Node next;
+    Nodee next;
 
     Node(int val) {
         this.data = val;
@@ -14,7 +14,7 @@ package linkedlist;
 public class LinkedListLength {
 
     // Function to find the length of the linked list
-    public int findLength(Node head) {
+    public int findLength(Nodee head) {
         int length = 0;
 
         // Traverse the list using head directly
@@ -28,11 +28,11 @@ public class LinkedListLength {
 
     public static void main(String[] args) {
         // Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(4);
-        head.next.next.next.next = new Node(5);
+        Nodee head = new Nodee(1);
+        head.next = new Nodee(2);
+        head.next.next = new Nodee(3);
+        head.next.next.next = new Nodee(4);
+        head.next.next.next.next = new Nodee(5);
 
         // Calculate and print the length of the linked list
         LinkedListLength solution = new LinkedListLength();
