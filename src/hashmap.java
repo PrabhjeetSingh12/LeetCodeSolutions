@@ -20,8 +20,6 @@ public class hashmap {
             System.out.println("Value: " + map.get(key));
         }
 
-
-
         for (Integer value : map.values()) {
             System.out.println("Value: " + value);
         }
